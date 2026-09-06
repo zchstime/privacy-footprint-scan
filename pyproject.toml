@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "privacy-footprint-scan"
+version = "0.1.0"
+description = "Inventory possible personal data across a folder without printing sensitive values."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "zchstime" }]
+keywords = ['privacy', 'pii', 'security', 'data-discovery', 'devsecops', 'local-first']
+[project.scripts]
+privacy-scan = "privacy_footprint_scan.__main__:main"
+[tool.setuptools.packages.find]
+where = ["src"]

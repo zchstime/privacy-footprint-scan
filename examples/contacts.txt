@@ -1,0 +1,3 @@
+Synthetic contact: ada@example.com
+Synthetic office phone: +1 555 010 2000
+Synthetic development host: 192.0.2.10
